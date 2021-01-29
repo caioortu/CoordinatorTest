@@ -29,4 +29,3 @@ class MainViewController: UIViewController, NibController {
         coordinator?.createAccount()
     }
 }
-

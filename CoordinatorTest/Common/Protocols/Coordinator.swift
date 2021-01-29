@@ -10,7 +10,7 @@ import UIKit
 protocol Coordinator: class, Presentable {
     var childCoordinators: [Coordinator] { get set }
     var router: RouterType { get }
-
+    
     func addChild(_ coordinator: Coordinator)
     func removeChild(_ coordinator: Coordinator?)
 }
@@ -22,11 +22,9 @@ extension Coordinator {
     }
     
     func removeChild(_ child: Coordinator?) {
-        for (index, coordinator) in childCoordinators.enumerated() {
-            if coordinator === child {
-                childCoordinators.remove(at: index)
-                break
-            }
+        for (index, coordinator) in childCoordinators.enumerated() where coordinator === child {
+            childCoordinators.remove(at: index)
+            break
         }
     }
 }
