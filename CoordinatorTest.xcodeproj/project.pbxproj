@@ -9,12 +9,24 @@
 /* Begin PBXBuildFile section */
 		004F1C9F25C0C24D00F4A11F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F1C9E25C0C24D00F4A11F /* AppDelegate.swift */; };
 		004F1CA125C0C24D00F4A11F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F1CA025C0C24D00F4A11F /* SceneDelegate.swift */; };
-		004F1CA325C0C24D00F4A11F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F1CA225C0C24D00F4A11F /* ViewController.swift */; };
-		004F1CA625C0C24D00F4A11F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004F1CA425C0C24D00F4A11F /* Main.storyboard */; };
+		004F1CA325C0C24D00F4A11F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F1CA225C0C24D00F4A11F /* MainViewController.swift */; };
 		004F1CA825C0C25000F4A11F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004F1CA725C0C25000F4A11F /* Assets.xcassets */; };
 		004F1CAB25C0C25000F4A11F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004F1CA925C0C25000F4A11F /* LaunchScreen.storyboard */; };
 		004F1CB625C0C25000F4A11F /* CoordinatorTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F1CB525C0C25000F4A11F /* CoordinatorTestTests.swift */; };
 		004F1CC125C0C25000F4A11F /* CoordinatorTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F1CC025C0C25000F4A11F /* CoordinatorTestUITests.swift */; };
+		004F1CD225C0C2D400F4A11F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F1CD125C0C2D400F4A11F /* Coordinator.swift */; };
+		008CC26125C198E700C6FBC1 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC25F25C198E700C6FBC1 /* BuyViewController.swift */; };
+		008CC26225C198E700C6FBC1 /* BuyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 008CC26025C198E700C6FBC1 /* BuyViewController.xib */; };
+		008CC26C25C19A5D00C6FBC1 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008CC26B25C19A5D00C6FBC1 /* NSObject+Extension.swift */; };
+		0091E96325C19D5B0086E34B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0091E96225C19D5B0086E34B /* MainViewController.xib */; };
+		0091E96D25C19EC80086E34B /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091E96B25C19EC80086E34B /* CreateAccountViewController.swift */; };
+		0091E96E25C19EC80086E34B /* CreateAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0091E96C25C19EC80086E34B /* CreateAccountViewController.xib */; };
+		0091E98025C1A6160086E34B /* BuyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091E97F25C1A6160086E34B /* BuyCoordinator.swift */; };
+		00CF93D525C2252F00C12481 /* CreateAccountCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF93D425C2252F00C12481 /* CreateAccountCoordinator.swift */; };
+		00CF93DB25C3134400C12481 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF93DA25C3134400C12481 /* Presentable.swift */; };
+		00CF93E025C3146500C12481 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF93DF25C3146500C12481 /* Router.swift */; };
+		00FBDCD425C190FF0095DD3C /* NibController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FBDCD325C190FF0095DD3C /* NibController.swift */; };
+		00FBDCDC25C193470095DD3C /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FBDCDB25C193470095DD3C /* MainCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +50,7 @@
 		004F1C9B25C0C24D00F4A11F /* CoordinatorTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		004F1C9E25C0C24D00F4A11F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		004F1CA025C0C24D00F4A11F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		004F1CA225C0C24D00F4A11F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		004F1CA525C0C24D00F4A11F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		004F1CA225C0C24D00F4A11F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		004F1CA725C0C25000F4A11F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		004F1CAA25C0C25000F4A11F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		004F1CAC25C0C25000F4A11F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +60,19 @@
 		004F1CBC25C0C25000F4A11F /* CoordinatorTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoordinatorTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		004F1CC025C0C25000F4A11F /* CoordinatorTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorTestUITests.swift; sourceTree = "<group>"; };
 		004F1CC225C0C25000F4A11F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004F1CD125C0C2D400F4A11F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		008CC25F25C198E700C6FBC1 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		008CC26025C198E700C6FBC1 /* BuyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuyViewController.xib; sourceTree = "<group>"; };
+		008CC26B25C19A5D00C6FBC1 /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		0091E96225C19D5B0086E34B /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		0091E96B25C19EC80086E34B /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		0091E96C25C19EC80086E34B /* CreateAccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateAccountViewController.xib; sourceTree = "<group>"; };
+		0091E97F25C1A6160086E34B /* BuyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator.swift; sourceTree = "<group>"; };
+		00CF93D425C2252F00C12481 /* CreateAccountCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountCoordinator.swift; sourceTree = "<group>"; };
+		00CF93DA25C3134400C12481 /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		00CF93DF25C3146500C12481 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		00FBDCD325C190FF0095DD3C /* NibController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibController.swift; sourceTree = "<group>"; };
+		00FBDCDB25C193470095DD3C /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +123,10 @@
 		004F1C9D25C0C24D00F4A11F /* CoordinatorTest */ = {
 			isa = PBXGroup;
 			children = (
-				004F1C9E25C0C24D00F4A11F /* AppDelegate.swift */,
-				004F1CA025C0C24D00F4A11F /* SceneDelegate.swift */,
-				004F1CA225C0C24D00F4A11F /* ViewController.swift */,
-				004F1CA425C0C24D00F4A11F /* Main.storyboard */,
-				004F1CA725C0C25000F4A11F /* Assets.xcassets */,
-				004F1CA925C0C25000F4A11F /* LaunchScreen.storyboard */,
-				004F1CAC25C0C25000F4A11F /* Info.plist */,
+				008CC25E25C198AD00C6FBC1 /* Sources */,
+				00FBDCE025C1973F0095DD3C /* Application */,
+				008CC25C25C1986600C6FBC1 /* Common */,
+				00FBDCE125C197700095DD3C /* Supporting Files */,
 			);
 			path = CoordinatorTest;
 			sourceTree = "<group>";
@@ -126,6 +147,93 @@
 				004F1CC225C0C25000F4A11F /* Info.plist */,
 			);
 			path = CoordinatorTestUITests;
+			sourceTree = "<group>";
+		};
+		008CC25C25C1986600C6FBC1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				008CC26A25C19A4300C6FBC1 /* Extensions */,
+				008CC25D25C1988A00C6FBC1 /* Protocols */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		008CC25D25C1988A00C6FBC1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				00FBDCD325C190FF0095DD3C /* NibController.swift */,
+				004F1CD125C0C2D400F4A11F /* Coordinator.swift */,
+				00CF93DA25C3134400C12481 /* Presentable.swift */,
+				00CF93DF25C3146500C12481 /* Router.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		008CC25E25C198AD00C6FBC1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0091E97525C1A5420086E34B /* Main */,
+				008CC26925C198F300C6FBC1 /* Buy */,
+				0091E96A25C19E960086E34B /* CreateAccount */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		008CC26925C198F300C6FBC1 /* Buy */ = {
+			isa = PBXGroup;
+			children = (
+				008CC25F25C198E700C6FBC1 /* BuyViewController.swift */,
+				008CC26025C198E700C6FBC1 /* BuyViewController.xib */,
+				0091E97F25C1A6160086E34B /* BuyCoordinator.swift */,
+			);
+			path = Buy;
+			sourceTree = "<group>";
+		};
+		008CC26A25C19A4300C6FBC1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				008CC26B25C19A5D00C6FBC1 /* NSObject+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0091E96A25C19E960086E34B /* CreateAccount */ = {
+			isa = PBXGroup;
+			children = (
+				0091E96B25C19EC80086E34B /* CreateAccountViewController.swift */,
+				0091E96C25C19EC80086E34B /* CreateAccountViewController.xib */,
+				00CF93D425C2252F00C12481 /* CreateAccountCoordinator.swift */,
+			);
+			path = CreateAccount;
+			sourceTree = "<group>";
+		};
+		0091E97525C1A5420086E34B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				00FBDCDB25C193470095DD3C /* MainCoordinator.swift */,
+				004F1CA225C0C24D00F4A11F /* MainViewController.swift */,
+				0091E96225C19D5B0086E34B /* MainViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		00FBDCE025C1973F0095DD3C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				004F1C9E25C0C24D00F4A11F /* AppDelegate.swift */,
+				004F1CA025C0C24D00F4A11F /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		00FBDCE125C197700095DD3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				004F1CA725C0C25000F4A11F /* Assets.xcassets */,
+				004F1CA925C0C25000F4A11F /* LaunchScreen.storyboard */,
+				004F1CAC25C0C25000F4A11F /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +339,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0091E96325C19D5B0086E34B /* MainViewController.xib in Resources */,
 				004F1CAB25C0C25000F4A11F /* LaunchScreen.storyboard in Resources */,
+				0091E96E25C19EC80086E34B /* CreateAccountViewController.xib in Resources */,
+				008CC26225C198E700C6FBC1 /* BuyViewController.xib in Resources */,
 				004F1CA825C0C25000F4A11F /* Assets.xcassets in Resources */,
-				004F1CA625C0C24D00F4A11F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +368,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				004F1CA325C0C24D00F4A11F /* ViewController.swift in Sources */,
+				004F1CD225C0C2D400F4A11F /* Coordinator.swift in Sources */,
+				00FBDCDC25C193470095DD3C /* MainCoordinator.swift in Sources */,
+				004F1CA325C0C24D00F4A11F /* MainViewController.swift in Sources */,
+				0091E98025C1A6160086E34B /* BuyCoordinator.swift in Sources */,
+				008CC26C25C19A5D00C6FBC1 /* NSObject+Extension.swift in Sources */,
+				00CF93DB25C3134400C12481 /* Presentable.swift in Sources */,
+				00FBDCD425C190FF0095DD3C /* NibController.swift in Sources */,
+				00CF93D525C2252F00C12481 /* CreateAccountCoordinator.swift in Sources */,
 				004F1C9F25C0C24D00F4A11F /* AppDelegate.swift in Sources */,
+				0091E96D25C19EC80086E34B /* CreateAccountViewController.swift in Sources */,
+				008CC26125C198E700C6FBC1 /* BuyViewController.swift in Sources */,
 				004F1CA125C0C24D00F4A11F /* SceneDelegate.swift in Sources */,
+				00CF93E025C3146500C12481 /* Router.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +416,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		004F1CA425C0C24D00F4A11F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				004F1CA525C0C24D00F4A11F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		004F1CA925C0C25000F4A11F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,7 +550,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53GFTFVDN8;
-				INFOPLIST_FILE = CoordinatorTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CoordinatorTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +569,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53GFTFVDN8;
-				INFOPLIST_FILE = CoordinatorTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CoordinatorTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

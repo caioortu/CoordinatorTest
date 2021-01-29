@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="CoordinatorTest" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="KoJ-we-Jw1" id="C0p-L6-P9V"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="KoJ-we-Jw1">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="LXP-rz-apg">
+                    <rect key="frame" x="153.5" y="418" width="107" height="60"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OXq-al-6Ud">
+                            <rect key="frame" x="0.0" y="0.0" width="107" height="30"/>
+                            <state key="normal" title="Buy"/>
+                            <connections>
+                                <action selector="buyTapped:" destination="-1" eventType="touchUpInside" id="2eY-LX-nnI"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uig-MM-Ac8">
+                            <rect key="frame" x="0.0" y="30" width="107" height="30"/>
+                            <state key="normal" title="Create Account"/>
+                            <connections>
+                                <action selector="createAccount:" destination="-1" eventType="touchUpInside" id="0HD-b5-8Vw"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="4qO-0x-y6P"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="LXP-rz-apg" firstAttribute="centerX" secondItem="KoJ-we-Jw1" secondAttribute="centerX" id="PQ7-Yl-pyq"/>
+                <constraint firstItem="LXP-rz-apg" firstAttribute="centerY" secondItem="KoJ-we-Jw1" secondAttribute="centerY" id="qLZ-ga-mJ0"/>
+            </constraints>
+            <point key="canvasLocation" x="-61" y="71"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
